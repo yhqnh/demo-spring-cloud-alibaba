@@ -1,0 +1,8 @@
+rootProject.name = 'demo-spring-cloud-alibaba'
+include 'api-order'
+include 'api-product-1'
+include 'api-product-2'
+include 'service'
+include 'dao'
+include 'common'
+

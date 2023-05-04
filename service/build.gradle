@@ -1,0 +1,4 @@
+dependencies {
+    api project(":dao")
+    api group: 'com.alibaba.cloud', name: 'spring-cloud-starter-alibaba-sentinel'
+}
