@@ -1,3 +1,7 @@
 dependencies {
     api project(":common")
+//    api group: 'com.alibaba.cloud', name: 'spring-cloud-starter-alibaba-seata'
+    api group: 'com.baomidou', name: 'mybatis-plus-boot-starter', version: '3.5.3.1'
+    api group: 'com.baomidou', name: 'mybatis-plus-generator', version: '3.5.3.1'
+    api group: 'com.mysql', name: 'mysql-connector-j', version: '8.0.33'
 }

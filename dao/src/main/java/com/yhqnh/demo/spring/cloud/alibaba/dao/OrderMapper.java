@@ -1,8 +1,8 @@
 package com.yhqnh.demo.spring.cloud.alibaba.dao;
 
-import com.yhqnh.demo.spring.cloud.alibaba.common.dto.OrderDTO;
+import com.yhqnh.demo.spring.cloud.alibaba.dao.model.OrderDO;
 
 public interface OrderMapper {
 
-    OrderDTO get(String id);
+    int insert(OrderDO entity);
 }
