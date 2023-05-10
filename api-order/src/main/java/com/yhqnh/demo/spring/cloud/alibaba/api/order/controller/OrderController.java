@@ -29,7 +29,7 @@ public class OrderController {
     @GetMapping("/test")
     @SentinelResource
     public String test() {
-        return "test";
+        return testConfigValue;
     }
 
     /**
